@@ -1,6 +1,6 @@
 CFLAGS := -Wall
 
-test_simeck.run: main.c simeck64.h
+test_simeck.run: main.c simeck32.h simeck48.h simeck64.h
 	gcc $(CFLAGS) $< -o $@
 
 
