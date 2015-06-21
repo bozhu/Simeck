@@ -1,0 +1,8 @@
+*.txt
+*.tmp
+*~
+*.swp
+.DS_Store
+*.o
+*.run
+*.out
